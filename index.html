@@ -1290,7 +1290,7 @@ async function submitLevelProgression() {
     // Step 8: Set Level Progression for Class
     const classIds = ["Scout", "Leader", "Detective", "Bagman", "Inventor", "Brave", 
                       "GhostNeighbor", "ButcherNeighbor", "BasicNeighbor", "HunterNeighbor", 
-                      "ClownNeighbor", "GuestNeighbor"];
+                      "ClownNeighbor", "GuestNeighbor", "Quentin"];
     const randomClassId = classIds.filter(id => id !== "RandomExplorer" && id !== "RandomNeighbor")[Math.floor(Math.random() * classIds.length)];
     const randomXP = Math.floor(Math.random() * (2000 - 1000 + 1)) + 1000;
 
